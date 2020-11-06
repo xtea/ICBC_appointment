@@ -51,6 +51,7 @@ def make_bell_sound():
 	os.system("say 'ICBC appointment found.'")
 
 def main():
+	print 'start detecting...'
 	loc_file = sys.argv[1]
 	locations = read_location_json(loc_file)
 	try_time = 1
@@ -62,7 +63,8 @@ def main():
 				break
 			time.sleep(3)
 			try_time += 1 
-			print 'retry ...',try_time
+			sys.stdout.write(".")
+			sys.stdout.flush()
 
 
 if __name__ == "__main__":
