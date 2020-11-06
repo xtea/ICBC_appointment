@@ -1,0 +1,116 @@
+[
+  {
+    "addressZip": "V5C6N4",
+    "custom": "{\"names\":{\"en\":\"Burnaby\"}}",
+    "qpId": "11",
+    "internalId": 2,
+    "name": "Burnaby",
+    "addressLine1": "3880 Lougheed Highway",
+    "id": "53851ce8b410de56e26a0f0d2eda5a3e8d8cf4e05cc1b21af70121f53ef53b5d",
+    "addressCity": "Burnaby"
+  },
+  {
+    "addressZip": "V5N5P4",
+    "custom": "{\"names\":{\"en\":\"East Van\"}}",
+    "qpId": "9",
+    "internalId": 3,
+    "name": "East Van",
+    "addressLine1": "2750 Commercial Drive",
+    "id": "0ab916058f4b572eae9dfbdf0693fa9f2f97a34a19bee6c68d09cb28b78ac3c3",
+    "addressCity": "Vancouver"
+  },
+  {
+    "addressZip": "V2C 6V3",
+    "custom": "{\"names\":{\"en\":\"Kamloops\"}}",
+    "qpId": "18",
+    "internalId": 5,
+    "name": "Kamloops",
+    "addressLine1": "937 Concordia Way",
+    "id": "b0e64a9abb67d579f5f1770343b057ee5dcfdaf229bb2607e30d9431a8d0535a",
+    "addressCity": "Kamloops"
+  },
+  {
+    "addressZip": "V2Y 1K9",
+    "custom": "{\"names\":{\"en\":\"Langley-Willowbrook\"}}",
+    "qpId": "16",
+    "internalId": 7,
+    "name": "Langley-Willowbrook",
+    "addressLine1": "19950 Willowbrook Drive",
+    "addressLine2": "Unit 7",
+    "id": "09863cca687e2a677911a7e9d1b88c55eaba7b13c862bd9da8eca1426855ef1d",
+    "addressCity": "Langley"
+  },
+  {
+    "addressZip": "V5H 4P2",
+    "custom": "{\"names\":{\"en\":\"Metrotown\"}}",
+    "qpId": "15",
+    "internalId": 8,
+    "name": "Metrotown",
+    "addressLine1": "4820 Kingsway",
+    "addressLine2": "232",
+    "id": "e879cd70e75ba8db2fb03b3d2060bf7c1c74e5d879ebea3cc585fd2d707a278d",
+    "addressCity": "Burnaby"
+  },
+  {
+    "addressZip": "V7L 2L3",
+    "custom": "{\"names\":{\"en\":\"North Vancouver\"}}",
+    "qpId": "4",
+    "internalId": 10,
+    "name": "North Vancouver",
+    "addressLine1": "#104 - 125 East 13th Street",
+    "id": "80a96ca1218413463f6601d41d2e97391e2b9da1aadaf033220be663264db0f3",
+    "addressCity": "North Vancouver"
+  },
+  {
+    "addressZip": "V6L 2P2",
+    "custom": "{\"names\":{\"en\":\"Point Grey\"}}",
+    "qpId": "12",
+    "internalId": 11,
+    "name": "Point Grey",
+    "addressLine1": "4126 Macdonald Street",
+    "id": "542161df66423009309050c01dcc17f7d1db1ef8e7cea3012331509b79ea6959",
+    "addressCity": "Vancouver"
+  },
+  {
+    "addressZip": "V3C 0A4",
+    "custom": "{\"names\":{\"en\":\"Port Coquitlam\"}}",
+    "qpId": "7",
+    "internalId": 12,
+    "name": "Port Coquitlam",
+    "addressLine1": "1930 Oxford Connector",
+    "id": "b40103f18229d5654343c6813aa147e8057cb2838e460530f136e3851bf5fa41",
+    "addressCity": "Port Coquitlam"
+  },
+  {
+    "addressZip": "V6X 2X9",
+    "custom": "{\"names\":{\"en\":\"Richmond\"}}",
+    "qpId": "13",
+    "internalId": 13,
+    "name": "Richmond",
+    "addressLine1": "5300 No. 3 Road",
+    "addressLine2": "Suite 402",
+    "id": "b1d4daefba2458c80d880e3931798ef508477d19f6cf1652327459a4a1a27ee3",
+    "addressCity": "Richmond"
+  },
+  {
+    "addressZip": "V6E 3R5",
+    "custom": "{\"names\":{\"en\":\"Royal Centre\"}}",
+    "qpId": "2",
+    "internalId": 14,
+    "name": "Royal Centre",
+    "addressLine1": "1055 West Georgia Street",
+    "addressLine2": "Suite 221",
+    "id": "ea01f5e5ba07af767a739c1d66730bef9663a1a307b84e4674cffcd93caad1b5",
+    "addressCity": "Vancouver"
+  },
+  {
+    "addressZip": "V3W 8J6",
+    "custom": "{\"names\":{\"en\":\"Surrey\"}}",
+    "qpId": "5",
+    "internalId": 15,
+    "name": "Surrey",
+    "addressLine1": "13426 - 78Th Avenue",
+    "id": "d8225a23dd9830e9684fb00f8aea2fff279c892cb1065244aaa0ae05396a0fe2",
+    "addressCity": "Surrey"
+  }
+]
