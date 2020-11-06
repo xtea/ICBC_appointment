@@ -3,6 +3,9 @@
 import sys
 import json
 import urllib
+import time
+import os
+
 
 # Init from website.
 servicePublicId="da8488da9b5df26d32ca58c6d6a7973bedd5d98ad052d62b468d3b04b080ea25"
@@ -35,19 +38,32 @@ def is_match(times, month):
 
 def send_notification(times, loc):
 	# TODO: add notification to mobile or desktop.
+	make_bell_sound()
 	print 'Found match date at [', loc["name"],']'
 	print 'Available times'
 	for t in times:
 		print t['date']
 
+# make a sound in your computer 
+def make_bell_sound():
+	os.system("say 'ICBC appointment found.'")
+	os.system("say 'ICBC appointment found.'")
+	os.system("say 'ICBC appointment found.'")
 
 def main():
 	loc_file = sys.argv[1]
 	locations = read_location_json(loc_file)
+	try_time = 1
 	for loc in locations:
-		times = fetch_available_times(loc)
-		if is_match(times, expectMonth):
-			send_notification(times, loc)
+		while True:
+			times = fetch_available_times(loc)
+			if is_match(times, expectMonth):
+				send_notification(times, loc)
+				break
+			time.sleep(3)
+			try_time += 1 
+			print 'retry ...',try_time
+
 
 if __name__ == "__main__":
     # execute only if run as a script
