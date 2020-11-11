@@ -2,9 +2,10 @@
 
 import sys
 import json
-import urllib
+import urllib2
 import time
 import os
+import ssl
 
 
 # Init from website.
@@ -22,9 +23,13 @@ def read_location_json(filename):
 # Fetch availibe times from https://onlinebusiness.icbc.com/qmaticwebbooking/#/
 # Only support knowledge test
 def fetch_available_times(loc):
+	# Fix SSL error
+	ctx = ssl.create_default_context()
+	ctx.check_hostname = False
+	ctx.verify_mode = ssl.CERT_NONE
 	url = "https://onlinebusiness.icbc.com/qmaticwebbooking/rest/schedule/branches/{0}/dates;servicePublicId={1};customSlotLength=15"
 	url =  url.format(loc['id'], servicePublicId)
-	response = urllib.urlopen(url)
+	response = urllib2.urlopen(url, context=ctx)
 	content = response.read()
 	return json.loads(content)
 
@@ -51,7 +56,7 @@ def make_bell_sound():
 	os.system("say 'ICBC appointment found.'")
 
 def main():
-	print 'start detecting...'
+	print 'start detecting appointments in', expectMonth, '...'
 	loc_file = sys.argv[1]
 	locations = read_location_json(loc_file)
 	try_time = 1
