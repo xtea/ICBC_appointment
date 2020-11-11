@@ -14,7 +14,7 @@ Modify [expectMonth](https://github.com/xtea/ICBC_appointment/blob/main/watch.py
 
 #### 2 - Run script.
 
-`python watch.py icbc_locations.json`
+`python watch.py locations.json`
 
 #### 3 -Waitting.
 
