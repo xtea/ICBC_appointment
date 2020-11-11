@@ -2,7 +2,7 @@
 
 
 ## What is use for?
-
+Python script enable to refresh api until geting available knowledge test apointment.
 
 ## How to use?
 
