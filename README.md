@@ -15,7 +15,8 @@ Modify [expectMonth](https://github.com/xtea/ICBC_appointment/blob/main/watch.py
 ### 2.Run script.
 `python watch.py icbc_locations.json`
 
-### 3 Wait 
+### 3 Waitting.
+
 Wait until you device say 'say ICBC appointment found.'
 
 
