@@ -6,7 +6,7 @@
 
 
 ## 安装
-** 请预先安装python2.7 版本 ***
+** 请预先安装python2.7 版本 **
 
 
 ## 用法
@@ -25,7 +25,7 @@
 
 ### 路考刷新
 
-直接运行
+直接运行:
 
 `python road_test.py {driverLastName} {licenceNumber} {keyword}`
 
