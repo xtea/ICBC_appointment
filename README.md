@@ -25,7 +25,7 @@
 
 ### 路考刷新
 
-直接运行:
+同上修改expectMonth后，运行:
 
 `python road_test.py {driverLastName} {licenceNumber} {keyword}`
 
