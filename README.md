@@ -1,23 +1,36 @@
 # ICBC_appointment
 
 
-## What is use for?
-Python script enable to refresh api until geting available knowledge test apointment.
+## 功能
+自动刷新ICBC预约系统，找到合适的时间。
 
-## How to use?
 
-**Before run script you need to install ptyhon2.7.** 
+## 安装
+** 请预先安装python2.7 版本 ***
 
-#### 1 - Setup script.
 
-Modify [expectMonth](https://github.com/xtea/ICBC_appointment/blob/main/watch.py#L14) base on your reqirement.
+## 用法
 
-#### 2 - Run script.
+### 笔试刷新
 
-`python watch.py locations.json`
+1. 修改期望刷新的月份
 
-#### 3 -Waitting.
+在文件 knowledge_test.py 修改expectMonth.
 
-Wait until you device say 'say ICBC appointment found.'
+2. 打开命令行直接运行：
 
+`python knowledge_test.py locations.json`
+
+不间断刷新知道有可用的预约时间，电脑会发出声音。
+
+### 路考刷新
+
+直接运行
+
+`python road_test.py {driverLastName} {licenceNumber} {keyword}`
+
+说明
+- driverLastName, 登陆使用的Last Name
+- licenceNumber, 驾照号码
+- keyword 登陆密码
 
