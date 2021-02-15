@@ -11,9 +11,6 @@ import ssl
 # Init from website.
 servicePublicId="da8488da9b5df26d32ca58c6d6a7973bedd5d98ad052d62b468d3b04b080ea25"
 
-# Month
-expectMonth = "2020-11"
-
 # Read locations from json files.
 def read_location_json(filename):
 	with open(filename) as f:
@@ -56,6 +53,7 @@ def make_bell_sound():
 	os.system("say 'ICBC appointment found.'")
 
 def main():
+	expectMonth = sys.argv[2]
 	print 'start detecting appointments in', expectMonth, '...'
 	loc_file = sys.argv[1]
 	locations = read_location_json(loc_file)
