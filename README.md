@@ -13,13 +13,9 @@
 
 ### 笔试刷新
 
-1. 修改期望刷新的月份
+- 打开命令行直接运行：
 
-在文件 knowledge_test.py 修改expectMonth.
-
-2. 打开命令行直接运行：
-
-`python knowledge_test.py locations.json`
+`python knowledge_test.py locations.json {YYYY-MM}`
 
 不间断刷新知道有可用的预约时间，电脑会发出声音。
 
